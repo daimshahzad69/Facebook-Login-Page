@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .login-card {
+    width: 300px;
+    padding: 20px;
+    background: #f0f2f5;
+  }
+  
+  .signup-popup {
+    width: 300px;
+    padding: 20px;
+    background: #ffffff;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

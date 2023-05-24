@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h2>Login</h2>
+      <div class="input-field">
+        <label for="email">Email or Phone:</label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div class="input-field">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <button class="btn" onclick="login()">Log In</button>
+    </div>
+    <div class="signup-popup">
+      <h2>Sign Up</h2>
+      <div class="input-field">
+        <label for="signup-email">Email:</label>
+        <input type="text" id="signup-email" name="signup-email">
+      </div>
+      <div class="input-field">
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" name="signup-password">
+      </div>
+      <button class="btn" onclick="signup()">Sign Up</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
