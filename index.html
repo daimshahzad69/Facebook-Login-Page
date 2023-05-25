@@ -1,37 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Facebook Login Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - log in or sign up</title>
+  <link rel="shortcut icon" type="image" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAYFBMVEU6VZ/////g4+4vTZyCkb4hRJjAx96wudQrS5smR5mttdE/WaHv8fcyT5zk5/BygrVEXaPa3uvIzeGmr85+jLzP0+SYo8dLYqaRncT19vlVa6loerIWP5afqcuKlsALO5U707PjAAABnUlEQVR4nO3Z3XKCMBAFYDQiCSXKfwUpvv9btr0TGiKzs5vM1HOumTnfMEncYJIgCIIgCIIgElFG2+TjTwK1a1W2WVcdL+tUNkS9UX11cKdQAeo/s432X4D8G9C3YbtfHmDL2lMvD9Bj4e2XBqi7v14aYMdX/cKA8hIXkPrXnzjA9K/7Zd+Ab/8HAOhmR78kYNrTLwjQc2SA7SIDyj1LUBBgr7v6D4MUwGztgSKbr88R6t88Bb9+xiP7HCnA5J7B5lSqcB1zdPVnU6j+RLkARaghfAtQh3sBbkCvIwNOAS4BAAAAAAAAvC9Apcs8XID2ka7DRVJzfV7GNZV353XqmUlgPB/CvGmYRgSTEwEnprGYDLjHBnAtQjKAa0ylAi6xATXXTYkKyLkGdSrgFnsRtly3YyJg4DoGqICiZOonA9gui0RAxXZdJgLObB9MiACuH2MygG0XUgFsu5A6EY1sANVmy+Suf8vqfPlQw3YMJInVy0zOqThdPiR5TXi/iwkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8L8A310MgBahhtaUAAAAASUVORK5CYII=">
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <div class="container">
-    <div class="login-card">
-      <h2>Login</h2>
-      <div class="input-field">
-        <label for="email">Email or Phone:</label>
-        <input type="text" id="email" name="email">
-      </div>
-      <div class="input-field">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password">
-      </div>
-      <button class="btn" onclick="login()">Log In</button>
-    </div>
-    <div class="signup-popup">
-      <h2>Sign Up</h2>
-      <div class="input-field">
-        <label for="signup-email">Email:</label>
-        <input type="text" id="signup-email" name="signup-email">
-      </div>
-      <div class="input-field">
-        <label for="signup-password">Password:</label>
-        <input type="password" id="signup-password" name="signup-password">
-      </div>
-      <button class="btn" onclick="signup()">Sign Up</button>
-    </div>
+  <div>
+    <i class="fa-brands fa-facebook"></i>
+      <div class="head">
+      <h1 class="face">facebook</h1>
+      <h2 class="book">Facebook helps you connect and share <br> with the people in your life.</h2>
   </div>
+  <br><br><br><br>
+  <div class="main">
+      <form>
+        <h2 class="title">Sign Up</h2>
+        <p class="subtitle" id="subtitle">It's quick and easy.</p>
+        <hr />
+        
+        <div class="abc">
+          <input type="text" placeholder="First Name" class="first_name" id="Name" />
+          <input type="text" placeholder="Surname" class="first_name" id="SurName" />
+          <br />
+          <input type="email" placeholder="Mobile number or email address" class="email" id="Number" />
+          <br />
+          <input type="password" placeholder="New password" class="email" id="Password" />
+          <br />
+        </div>
+        <p class="title_2">Date of Birth  </p>
+        <select id="date">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option>
+          <option>21</option>
+          <option>22</option>
+          <option>23</option>
+          <option>24</option>
+          <option>25</option>
+          <option>26</option>
+          <option>27</option>
+          <option>28</option>
+          <option>29</option>
+          <option>30</option>
+          <option>31</option>
+        </select>
+        <select id="month">
+          <option >Jan</option>
+          <option>Feb</option>
+          <option>Mar</option>
+          <option>Apr</option>
+          <option>May</option>
+          <option>Jun</option>
+          <option>Jul</option>
+          <option>Aug</option>
+          <option>Sep</option>
+          <option>Oct</option>
+          <option>Nov</option>
+          <option>Dec</option>
+        </select>
+        <select id="year">
+          <option>2023</option>
+          <option>2022</option>
+          <option>2021</option>
+          <option>2020</option>
+          <option>2019</option>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+        </select>
 
-  <script src="app.js"></script>
+        <br />
+      
+        <p class="sub_title_3" id="sub_title">Gender</p>
+        <div class="female" id="all_gender">
+          <label for="female"  ><b>Female</b> </label>
+          <input type="radio" name="gender" value="female"   />
+        </div>
+        <div class="male" id="all_gender">
+          <label for="male"><b>Male</b></label>
+          <input type="radio" name="gender" value="male"  />
+        </div>
+        <div class="other" id="all_gender">
+          <label for="other"><b>Custom</b></label>
+          <input type="radio" name="gender" value="other" />
+        </div>
+        <br />
+        <p class="subtitle_4">
+          By clicking Sign Up, you agree to our <a href="#"> Terms, Data Policy</a> and
+          <a href="">Cookie</a>
+          Policy. You may receive SMS notifications from us and can opt out at any time.
+        </p>
+        
+       <input  type="submit" onclick="register()" value="Signup" class="submit" > 
+      </form>
+    </div>
+    <div class="end"><p>English-(UK)
+      اردو
+      پښتو
+      العربية
+      हिन्दी
+      বাংলা
+      ਪੰਜਾਬੀ
+      فارسی
+      ગુજરાતી
+      Deutsch
+      Español
+      </p>
+  
+    </div>
+    <div class="hr">
+      <hr>
+       
+
+
+<script src="app.js"></script>
 </body>
 </html>
